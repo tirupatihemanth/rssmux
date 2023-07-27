@@ -7,6 +7,13 @@
 *.dll
 *.so
 *.dylib
+rssmux
+
+.env
+.DS_Store
+
+# From SQL Tools extension used as a postgres client
+*.session.sql
 
 # Test binary, built with `go test -c`
 *.test
@@ -19,3 +26,4 @@
 
 # Go workspace file
 go.work
+.vscode/
